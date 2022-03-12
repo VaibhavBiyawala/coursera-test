@@ -3,16 +3,18 @@ h1 {
   font-size: 175%;
   font-family: Goudy Old Style;
 }
-div {
-	width: 30%;
-	height: 90%;
-	margin-left: 30px;
-	margin-top: 50px;
+.row {
+   width: 100%;
+}
+h5
+ {  width: 95%;
+ 	height: 50%;
+    margin-left: 20px;
+	margin-top: 30px;
 	background-color: gray;
 	border: 4px solid black;
-	float: left;
 	font-family: georgia;
-}
+  }
 .p1 {
 	font-size: 200%;
 	width: 200px;
@@ -49,4 +51,50 @@ div {
 section {
 	clear: right;
 	font-size: 125%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3
+  {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+  }
+  @media (min-width: 752px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+  }
+  .col-md-1 {
+    width: 47.7%;
+  }
+  .col-md-2 {
+    width: 98%;
+  }
+  .col-md-3 {
+    width: 98%;
+}
+}
+  @media (max-width: 751px) {
+  .col-lg-1, .col-lg-2, .col-lg-3
+  {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 33.33%;
+  }
+  .col-sm-2 {
+    width: 66.66%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+  }
 }
