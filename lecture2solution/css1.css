@@ -51,6 +51,7 @@ h5
 section {
 	clear: right;
 	font-size: 125%;
+  padding: 10px 17px 0px 15px ;
 }
 
 @media (min-width: 992px) {
@@ -98,3 +99,5 @@ section {
   }
   }
 }
+
+ 
