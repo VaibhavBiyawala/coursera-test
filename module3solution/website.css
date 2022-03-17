@@ -1,0 +1,27 @@
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+#menu-tile {
+  margin-bottom: 15px;
+ margin-left: 20px;
+ margin-right: 20px;
+  overflow: hidden;
+  text-align: center;
+  clear: both;
+  background-color: grey;
+}
+h2 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+	float: right;
+  
+  margin-top: 18px;
+}
