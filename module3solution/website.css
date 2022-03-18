@@ -23,11 +23,13 @@ h2 {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: black;
-  font-size: 30px;
+  font-size: 1.5em;
   text-transform: uppercase;
+  font-weight: normal;
+  
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .50;
+  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
