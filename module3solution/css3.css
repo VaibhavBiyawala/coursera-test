@@ -1318,7 +1318,7 @@ mark,
 }
 .text-center {
   text-align: center;
-  font-size: 350%;
+  font-size: 200%;
 }
 .text-justify {
   text-align: justify;
@@ -1627,9 +1627,9 @@ pre code {
   width: 91.66666667%;
 }
 .col-xs-10 {
-  width: 83.33333333%;
+  width: 90.33333333%;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 75px;
 
 }
 .col-xs-9 {
@@ -4947,7 +4947,7 @@ a.badge:focus {
   cursor: pointer;
 }
 .list-group-item.active > .badge,
-.nav-pills > .active > a > .badge {
+.pills > .active > a > .badge {
   color: #337ab7;
   background-color: #fff;
 }
@@ -6702,7 +6702,7 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 541px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
   }
