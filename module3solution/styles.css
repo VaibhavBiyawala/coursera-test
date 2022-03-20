@@ -5,15 +5,11 @@ body {
 #header-nav {
   background-color: grey;
   border-radius: 0;
-  border: 0;
+  border: 3px solid black;
 }
 section{
   padding: 30px 40px;
 }
-/*#header-nav ul hr {
-  width: 100%;
-  background-color: black;
-}*/
 h1{
  text-align: center;
 }
@@ -27,7 +23,7 @@ h1{
   font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .50;
+  line-height: 1;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -35,13 +31,14 @@ h1{
 #nav-list  {
   margin-top: 0px;
   margin-bottom: 0px;
+  border: 2px solid black;
 }
 #nav-list a {
   
   text-align: center;
 }
-#nav-list a:hover {
-  background: black;
+#nav-list li:hover {
+  background: lightgrey;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -51,6 +48,10 @@ h1{
 
 }
 .navbar-header button.navbar-toggle {
+}
+
+hr{
+  border: 2px solid black;
 }
 /* HOME PAGE */
 #menu-tile{
